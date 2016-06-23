@@ -1,0 +1,10 @@
+PODS:
+  - Buglife (1.0.6)
+
+DEPENDENCIES:
+  - Buglife
+
+SPEC CHECKSUMS:
+  Buglife: be1b365ae7926677a4e920d7cc8d487bfd0336fa
+
+COCOAPODS: 0.39.0

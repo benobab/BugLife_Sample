@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Buglife
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        Buglife.sharedBuglife().startWithAPIKey("QhbrFs9ZT1ydScb2O5QmvAtt")
         return true
     }
 
